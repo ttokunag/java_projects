@@ -13,6 +13,10 @@ import javafx.geometry.*;
 import java.io.*;
 import java.lang.*;
 
+/**
+ * @author      Tomoya Tokunaga <ttokunag@ucsd.edu>
+ */
+
 public class GuiPacman extends Application
 {
   private String outputBoard; // The filename for where to save the Board
@@ -36,9 +40,6 @@ public class GuiPacman extends Application
   private static final Color COLOR_VALUE_LIGHT = Color.rgb(249, 246, 242);
   private static final Color COLOR_VALUE_DARK = Color.rgb(119, 110, 101);
 
-  /** Add your own Instance Variables here */
-
-
 
   /*
    * Name:      start
@@ -52,7 +53,6 @@ public class GuiPacman extends Application
     // Process Arguments and Initialize the Game Board
     processArgs(getParameters().getRaw().toArray(new String[0]));
 
-    /** Add your Code for the GUI Here */
     imageSize = ((660 - 5*(board.getGrid().length + 1)) / board.getGrid().length);
     currentGhosts = board.getGhosts();
     currentPacman = board.getPacman();

@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.*;
 
 /**
- * @author      Firstname Lastname <address @ example.com>
+ * @author      Tomoya Tokunaga <ttokunag@ucsd.edu>
  */
 public class Board{
 
